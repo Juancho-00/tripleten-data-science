@@ -24,7 +24,7 @@ car_data = load_data(data_path)
 
 # Encabezado de la página
 
-st.header('Anucios de venta de vehículos en USA')
+st.header('Anuncios de venta de vehículos en USA')
 st.write(
     f'Explora {len(car_data):,} anuncios publicados entre mayo de 2018 y abril de 2019.\n\n'
     'Selecciona las casillas para construir los gráficos'
@@ -63,7 +63,7 @@ build_scatter = st.checkbox('Construir gráfico de dispersión')
 
 if build_scatter:
     st.write(
-        'Relación entre del odómetro (millas recorridas) y el precio: a más millas, menor precio.')
+        'Relación entre del odómetro y el precio: se observa una tendencia a que los vehículos con más millas tengan precios más bajos.')
 
     fig = px.scatter(car_data, x='odometer', y='price', color='condition',
                      opacity=0.4,

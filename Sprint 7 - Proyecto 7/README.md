@@ -12,7 +12,11 @@ Permite a cualquier usuario, explorar inicialmente y de forma visual cómo se di
 
 ## Hallazgos del análisis exploratorio
 
-El detalle del análisis está en [`notebooks/EDA.ipynb`](notebooks/EDA.ipynb).
+El detalle del análisis está en [`notebooks/EDA.ipynb`](notebooks/EDA.ipynb). En resumen:
+
+- El **kilometraje** y la **condición** son los factores que más se relacionan con el precio.
+- El precio sube de forma **consistente** con el estado del vehículo.
+- Odómetro y el precio tienen una relación **negativa moderada**.
 
 ## Estructura
 
