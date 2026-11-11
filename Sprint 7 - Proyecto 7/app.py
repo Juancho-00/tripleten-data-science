@@ -26,7 +26,7 @@ car_data = load_data(data_path)
 
 st.header('Anucios de venta de vehículos en USA')
 st.write(
-    f'Explora {len(car_data):,} anuncios publicados entre mayo de 2018 y abril de 2019. '
+    f'Explora {len(car_data):,} anuncios publicados entre mayo de 2018 y abril de 2019.\n\n'
     'Selecciona las casillas para construir los gráficos'
 )
 
