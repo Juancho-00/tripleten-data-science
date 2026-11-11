@@ -9,13 +9,13 @@ Cada carpeta es un proyecto autónomo con su propio `README.md` y dependencias.
 
 | Sprint | Proyecto | Temas | Stack | Demo |
 |---|---|---|---|---|
-| 07 | [Vehicles Dashboard](./sprint-07-vehicles-dashboard) | EDA, app web, despliegue | Python, pandas, Plotly, Streamlit, Render | _próximamente_ |
+| 07 | [Vehicles Dashboard](<./Sprint 7 - Proyecto 7>) | EDA, app web, despliegue | Python, pandas, Plotly, Streamlit, Render | [App en vivo](https://vehicles-dashboard-jpq.onrender.com) |
 
 ## Estructura
 
 ```
 tripleten-data-science/
-└── sprint-07-vehicles-dashboard/
+└── Sprint 7 - Proyecto 7/
     ├── README.md
     ├── app.py
     ├── requirements.txt
