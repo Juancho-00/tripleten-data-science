@@ -12,7 +12,7 @@ Lo que más aprendí aquí es que un valor ausente casi nunca es "ruido": suele 
 | 1,258 productos sin nombre | El 100 % está en el pasillo 100 y el departamento 21, que el propio sistema etiqueta como `"missing"` | Rellenados con `'Unknown'`: es una categoría real, no un error |
 | 28,817 pedidos sin "días desde el pedido anterior" | Son exactamente los **primeros pedidos** de cada cliente: no existe un pedido anterior | Se conservan como `NaN` (ausencia estructural) |
 | 836 productos sin posición en el carrito | Todos están en pedidos de **más de 64 artículos** | El sistema deja de registrar posiciones después de la 64. Usé un centinela (`999`) fuera de rango en lugar de inventar un orden |
-| 103 nombres de producto repetidos | Cada uno tiene un `product_id` distinto | No se eliminan: son productos diferentes con el mismo nombre |
+| 104 nombres de producto repetidos | Cada uno tiene un `product_id` distinto | No se eliminan: son productos diferentes con el mismo nombre |
 
 ## Lo que encontré
 
@@ -35,7 +35,7 @@ Python · pandas (`merge`, `groupby`, `nunique`, limpieza de nulos y duplicados)
 | `P04_instacart_data_wrangling.ipynb` | Notebook: diagnóstico, limpieza y análisis (niveles A, B y C) |
 | `instacart_orders.csv`, `products.csv`, `aisles.csv`, `departments.csv` | Datasets originales (separados por `;`) |
 
-> `order_products.csv` (90 MB) **no está en el repositorio** por su tamaño. El notebook lee los archivos desde la ruta `/datasets/` de la plataforma de TripleTen.
+> `order_products.csv` (90 MB) **no está en el repositorio** por su tamaño. El notebook intenta leer los archivos desde `/datasets/` (la ruta de la plataforma de TripleTen) y, si no existe, los lee desde esta misma carpeta. Para ejecutarlo en local hay que poner ahí `order_products.csv`.
 
 ---
 
