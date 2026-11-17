@@ -1,19 +1,17 @@
-# ============================================================
 # Repo: tripleten-data-science
 # Estrategia de lista blanca: se ignora todo lo de la raíz
 # y solo se publican las carpetas listadas con "!".
 # Para publicar un nuevo sprint, agrega su línea abajo.
-# ============================================================
 /*
 !/.gitignore
 !/README.md
+!/environment_tripleten.yml
 
-# --- Proyectos publicados ---
+# Proyectos publicados
 !/Sprint 7 - Proyecto 7/
+!/Sprint 8 - Proyecto 8/
 
-# ============================================================
 # Python / Jupyter
-# ============================================================
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
@@ -25,9 +23,8 @@ env/
 # Streamlit (secretos locales)
 .streamlit/secrets.toml
 
-# ============================================================
+
 # Editor y sistema (Windows + OneDrive)
-# ============================================================
 .vscode/
 desktop.ini
 Thumbs.db

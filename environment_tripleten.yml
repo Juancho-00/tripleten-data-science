@@ -1,0 +1,28 @@
+# Entorno único para todos los proyectos del bootcamp TripleTen
+# Crear:       conda env create -f environment_tripleten.yml
+# Actualizar:  conda env update -n TripleTen -f environment_tripleten.yml --prune
+name: TripleTen
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  # Datos
+  - pandas
+  - numpy
+  # Visualización
+  - matplotlib
+  - seaborn
+  - plotly
+  # Estadística
+  - scipy
+  - statsmodels
+  # App web (Sprint 7)
+  - streamlit
+  # Web scraping (Sprint 8)
+  - requests
+  - beautifulsoup4
+  - lxml
+  # Notebooks en VS Code
+  - ipykernel
+  - nbformat
+  - pip
