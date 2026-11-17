@@ -8,8 +8,17 @@
 !/environment_tripleten.yml
 
 # Proyectos publicados
+!/Sprint 1 - Proyecto 1/
+!/Sprint 2 - Proyecto 2/
+!/Sprint 3 - Proyecto 3/
+!/Sprint 4 - Proyecto 4/
+!/Sprint 5 - Proyecto 5/
+!/Sprint 6 - Proyecto 6/
 !/Sprint 7 - Proyecto 7/
 !/Sprint 8 - Proyecto 8/
+
+# Archivos demasiado pesados para GitHub (> 50 MB)
+/Sprint 4 - Proyecto 4/order_products.csv
 
 # Python / Jupyter
 __pycache__/
